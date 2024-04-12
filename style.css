@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@505&display=swap');
+
+nav #menu{
+    width: 2000px;
+    height: 300px;
+    display: none;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+html{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    scroll-behavior: smooth;
+    background: linear-gradient(blue,  rgb(207, 187, 70), navy);
+    /*background-color: aliceblue;*/
+    overflow-x: hidden;
+}
+nav{
+    position: sticky;
+    overflow: hidden;
+    top:0;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0;
+    
+    
+}
+
+#menuitem{
+    list-style: none;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    height: 100vh;
+    width: 250px;
+    display: none;
+    z-index: 999;
+}
+
+
+@media (max-width: 500px){
+
+    #Engineering img{
+        padding-left: 100px;
+    }
+
+    #Health p{
+        padding-right: 100px;
+    }
+
+    #ManagementCommunication img{
+        padding-left: 100px;
+    }
+
+    #AppliedSciences img{
+        padding-left: 100px;
+    }
+
+    #AppliedSciences p{
+        padding-bottom: 200px;
+    }
+
+    .beginning{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #syringe{
+        width: 55%;
+    }
+
+    #map{
+        padding-left: 0%;
+        left: 0%;
+    }
+    #Health{
+        display: flex;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+
+    #info{
+        font-size: large;
+    }
+    .beginning img{
+        width: 425px;
+    }
+    .typed{
+        max-width: 300px;
+    }
+    p{
+        font-size: 0.9rem;
+        padding-left: 0%;
+    }
+    img{
+        width: 40%;
+        height: 20%;
+    }
+
+    #AInfo{
+        padding-left: 40px;
+        padding-right: 0;
+    }
+
+    #x{
+        width: 20%;
+        height: 10%;
+    }
+    .main{
+        display: none;
+    }
+    nav #menu{
+        display: block;
+        height: 90px;
+        width: 90px;
+
+    }
+
+    #menu img{
+        width: 90px;
+        height: 90px;
+    }
+
+    #menuitem{
+        font-size: x-small;
+        background-color: navy;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    #basicInfo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    iframe{
+        width: 425px;
+    }
+
+
+}
+
+.main ::before{
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: #0a0a0a;
+    transition: transform 0.3s ease;
+}
+
+.main :hover:before{
+    transform: scaleX(1);
+}
+
+.main :active{
+    transform: scale(0.9);
+}
+
+
+
+#logo{
+    padding-right: 150px;
+    width: 200px;
+    height: 80px;
+}
+
+.typed{
+    font-size: xx-large;
+
+    width: 500px;
+    text-align: left;
+    display: block;
+    padding: 15px;
+    border-radius: 25px;
+    padding-right: 200px;
+}
+
+.beginning{
+    display: flex;
+    padding: 30px;
+}
+
+
+img{
+    border-radius: 25px;
+}
+
+#link {
+    padding-top: 20px;
+    padding-right: 50px;
+    font-size: x-large;
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+#basicInfo{
+    display: flex;
+}
+
+iframe{
+    padding-left: 300px;
+}
+
+#info{
+    display: block;
+}
+
+#AddmisTitle{
+    text-align: center;
+}
+
+#circle{
+    text-align: center;
+    width: 100px;
+    height: 80px;
+    border-radius: 180px;
+    border: 3px solid goldenrod;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+#Admission{
+    justify-content: space-around;
+    display: flex;
+}
+
+#AdmissDetail{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    color: rgb(0, 0, 0);
+
+
+}
+
+@media(min-width: 500px){
+    #Health img{
+        width: 25%;
+    }
+    
+    #AInfo{
+        padding-top: 0;
+        justify-content: space-around;
+        padding-left: 100px;
+        padding-right: 165px;
+        padding-bottom: 200px;
+    }
+    #Engineering p{
+        width: 500px;
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+    #Health p{
+        width: 500px;
+        padding-left: 100px;
+        padding-top: 50px; 
+    }
+    #ManagementCommunication p{
+        width: 500px;
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+    
+    #AppliedSciences p{
+        width: 500px;
+        padding-left: 100px;
+        padding-top: 50px;
+    
+    }
+
+    #Engineering{
+        display: flex;
+        padding-left: 200px;
+    }
+    
+    #Health{
+        display: flex;
+        padding-left: 200px;
+    }
+    
+    
+    
+    #ManagementCommunication{
+        display: flex;
+        padding-left: 200px;
+    }
+    
+    
+    
+    #AppliedSciences{
+        display: flex;
+        padding-left: 200px;
+    }
+    
+    #AppliedSciences img{
+        width: 25%;
+    }
+    
+}
+
+
+
+#backtotop{
+        max-width: 7%;
+        height: 15%;
+        z-index: 1;
+        position: fixed;
+        bottom: 6%;
+        right: 2%;
+}
+
+#fafsa{
+    display: flex;
+    justify-content: space-around;
+}
+
+#fafsa img{
+    width: 25%;
+
+}
+
+#fafsa p{
+    width: 500px;
+    padding-left: 50px;
+}
+
+#CTE{
+    display: flex;
+    justify-content: space-around;
+}
+
+#CTE p{
+    width: 300px;
+    padding-left: 50px;
+}
+
+#Majors{
+    padding: 15px;
+    padding-left: 50px;
+}
+
+
+
+
+
+#BASIC{
+    padding-bottom: 300px;
+}
+
+#ADD{
+    padding-bottom: 200px;
+}
+
+#FIN{
+    padding-bottom: 250px;
+}
