@@ -43,6 +43,11 @@ nav{
 
 @media (max-width: 500px){
 
+    #backtotop{
+        display: none;
+    }
+
+
     #Engineering img{
         padding-left: 100px;
     }
@@ -101,8 +106,7 @@ nav{
     }
 
     #AInfo{
-        padding-left: 40px;
-        padding-right: 0;
+        justify-content: space-around;
     }
 
     #x{
@@ -112,14 +116,9 @@ nav{
     .main{
         display: none;
     }
-
-    
-    #backtotop{
-        display: none;
-    }
-    
     nav #menu{
-        display: block;
+        display: flex;
+        justify-content: end;
         height: 90px;
         width: 90px;
 
@@ -127,6 +126,7 @@ nav{
 
     #menu img{
         justify-content: right;
+        
         width: 90px;
         height: 90px;
     }
@@ -227,6 +227,7 @@ iframe{
 
 #circle{
     text-align: center;
+    justify-content: space-between;
     width: 100px;
     height: 80px;
     border-radius: 180px;
