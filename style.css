@@ -112,6 +112,12 @@ nav{
     .main{
         display: none;
     }
+
+    
+    #backtotop{
+        display: none;
+    }
+    
     nav #menu{
         display: block;
         height: 90px;
@@ -120,6 +126,7 @@ nav{
     }
 
     #menu img{
+        justify-content: right;
         width: 90px;
         height: 90px;
     }
