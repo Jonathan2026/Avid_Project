@@ -42,7 +42,7 @@ nav{
 
 
 @media (max-width: 500px){
-
+    
     #backtotop{
         display: none;
     }
@@ -133,15 +133,21 @@ nav{
 
     #menuitem{
         font-size: x-small;
-        background-color: navy;
+        background-color: rgb(87, 87, 155);
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
+        box-shadow: #1b1b1b;
     }
 
     #basicInfo{
         display: flex;
         flex-direction: column;
+    }
+
+    #AdmissDetail{
+        align-content: center;
+        padding-left: 20px;
     }
 
     iframe{
